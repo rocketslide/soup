@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110412001014) do
+ActiveRecord::Schema.define(:version => 20110412001915) do
 
   create_table "restaurants", :force => true do |t|
     t.string   "name"
@@ -27,6 +27,15 @@ ActiveRecord::Schema.define(:version => 20110412001014) do
     t.string   "username"
     t.datetime "timestamp"
     t.string   "hash_password"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "visits", :force => true do |t|
+    t.integer  "restaurant_id"
+    t.integer  "user_id"
+    t.date     "date"
+    t.text     "comment"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

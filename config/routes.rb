@@ -1,4 +1,6 @@
 Soupbowl::Application.routes.draw do
+  resources :visits
+
   resources :users
 
   resources :restaurants

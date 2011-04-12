@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Restaurant:</b>
+  <%= @visit.restaurant_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @visit.user_id %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @visit.date %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @visit.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_visit_path(@visit) %> |
+<%= link_to 'Back', visits_path %>
