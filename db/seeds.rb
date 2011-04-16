@@ -9,7 +9,7 @@
 Restaurant.delete_all
 Restaurant.create(:name => 'Alinea',
   :location => 'Lincoln Park',
-  :open => 'true')
+  :open => 'false')
 # . . .
 Restaurant.create(:name => 'Birrieria Zaragoza',
   :location => 'Archer Heights',
@@ -17,7 +17,7 @@ Restaurant.create(:name => 'Birrieria Zaragoza',
 # . . .
 Restaurant.create(:name => 'The Capital Grille',
   :location => 'River East',
-  :open => 'true')
+  :open => 'false')
 # . . .
 Restaurant.create(:name => 'Don Churro',
   :location => 'Pilsen',
