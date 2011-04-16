@@ -21,13 +21,18 @@
 </p>
 
 <p>
-  <b>Timestamp:</b>
-  <%= @user.timestamp %>
+  <b>Member since:</b>
+  <%= @user.created_at %>
 </p>
 
 <p>
   <b>Hash password:</b>
   <%= @user.hash_password %>
+</p>
+
+<p>
+  <b>Visits:</b>
+  <%= Visit.find_all_by_user_id(@user) %>
 </p>
 
 
