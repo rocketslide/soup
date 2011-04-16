@@ -9,107 +9,107 @@
 Restaurant.delete_all
 Restaurant.create(:name => 'Alinea',
   :location => 'Lincoln Park',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Birrieria Zaragoza',
   :location => 'Archer Heights',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'The Capital Grille',
   :location => 'River East',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Don Churro',
   :location => 'Pilsen',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Ethiopian Diamond Restaurant',
   :location => 'Edgewater',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Franks Chicago Shrimp House II',
   :location => 'Portage Park',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'El Gallo Tapatio',
   :location => 'Clearing',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'HB Restaurant',
   :location => 'Lakeview',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Ipsento',
   :location => 'Bucktown',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Joes Seafood',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Kinzie Chop House',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Laschets Inn',
   :location => 'North Center',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'MK Restaurant',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Nightwood',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Osteria Via Stato',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Prosecco',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Quartino',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Roys Restaurant',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Soul Vegetarian East',
   :location => 'Greater Grand Crossing',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Tango Sur',
   :location => 'Lakeview',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Uncommon Ground',
   :location => 'Edgewater',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Viaggio Ristorante & Lounge',
   :location => 'Near North Side',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'West Town Tavern',
   :location => 'Noble Square',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'X Sushi',
   :location => 'Noble Square',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Yoshis Cafe',
   :location => 'Lakeview',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 Restaurant.create(:name => 'Zaytune',
   :location => 'Bridgeport',
-  :open => 'yes')
+  :open => 'true')
 # . . .
 # User Data
 User.delete_all
