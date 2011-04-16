@@ -21,8 +21,8 @@
 </p>
 
 <p>
-  <b>Timestamp:</b>
-  <%= @user.timestamp %>
+  <b>Member since:</b>
+  <%= @user.created_at %>
 </p>
 
 <p>
@@ -34,6 +34,7 @@
   <b>Visits:</b>
   <%= Visit.find_all_by_user_id(@user) %>
 </p>
+
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
