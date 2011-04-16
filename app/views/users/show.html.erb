@@ -1,35 +1,29 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Email:</b>
-  <%= @user.email %>
-</p>
-
-<p>
-  <b>Firstname:</b>
-  <%= @user.firstname %>
-</p>
-
-<p>
-  <b>Lastname:</b>
-  <%= @user.lastname %>
-</p>
-
-<p>
   <b>Username:</b>
   <%= @user.username %>
 </p>
 
 <p>
-  <b>Timestamp:</b>
+  <b>Name:</b>
+  <%= @user.firstname %> <%= @user.lastname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Eating since:</b>
   <%= @user.timestamp %>
 </p>
 
 <p>
-  <b>Hash password:</b>
-  <%= @user.hash_password %>
+  <b>Visits:</b>
+ <%= render "uservisits" %>
 </p>
-
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
