@@ -120,18 +120,21 @@ Restaurant.create(:name => 'Zaytune',
   :open => 'true')
 # . . .
 # User Data
-User.delete_all
+
 User.create(:email => 'dabunny1@hotmail.com',
   :firstname => 'Bugs',
   :lastname => 'Bunny',
-  :username => 'dabunny1')
+  :username => 'dabunny1',
+  :hash_password => '123')
 # . . .
 User.create(:email => 'mjackson@hotmail.com',
   :firstname => 'Michael',
   :lastname => 'Jackson',
-  :username => 'thriller88')
+  :username => 'thriller88',
+  :hash_password => '123')
 # . . .
 User.create(:email => 'topgun55@hotmail.com',
   :firstname => 'Tom',
   :lastname => 'Cruise',
-  :username => 'iamtomcruise')
+  :username => 'iamtomcruise',
+  :hash_password => '123')
