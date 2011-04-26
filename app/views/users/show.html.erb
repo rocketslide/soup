@@ -25,7 +25,10 @@
 
 <p>
   <b>Visits:</b>
-  <%= Visit.find_all_by_user_id(@user) %>
+ <% @visits.each do |visit|%>
+<%= visit.date %>
+<%= visit.restaurant_id %> <br />
+<% end %>
 </p>
 
 
