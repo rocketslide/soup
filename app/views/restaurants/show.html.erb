@@ -14,7 +14,12 @@
   <b>Open:</b>
   <%= @restaurant.open %>
 </p>
+<p>Visits:
+<% @visits.each do |visit|%>
+<%= visit.date %>
+<%= visit.user_id %> <br />
+<% end %>
 
-
+</p>
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>

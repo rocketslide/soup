@@ -14,13 +14,18 @@ class RestaurantsController < ApplicationController
   # GET /restaurants/1.xml
   def show
     @restaurant = Restaurant.find(params[:id])
-
+    @visits = Visit.find_all_by_restaurant_id(@restaurant.id)
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @restaurant }
+      
+      
     end
+    
+  
   end
-
+  
+  
   # GET /restaurants/new
   # GET /restaurants/new.xml
   def new

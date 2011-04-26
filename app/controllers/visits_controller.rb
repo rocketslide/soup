@@ -52,6 +52,8 @@ class VisitsController < ApplicationController
       end
     end
   end
+  
+  
 
   # PUT /visits/1
   # PUT /visits/1.xml
