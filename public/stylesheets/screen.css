@@ -1,0 +1,493 @@
+
+/*Page CSS*/
+
+html{
+	background: #191919;
+}
+
+body{
+	width:900px;
+	margin: 0 auto;
+	background: #191919;
+	font-family:sans-serif;
+}
+
+header{
+	background:#ED871B;
+	margin-top: 10px;
+	padding:15px;
+	padding-bottom:70px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:white;
+	position:relative;
+}
+
+img#logo{
+	padding-right:10px;
+	float:left;
+	width:150px;
+}
+
+nav{
+	position:absolute;
+	right:5px;
+	bottom:10px;
+}
+
+nav, header, section, footer{
+	display:block;
+}
+
+nav ul{
+	
+}
+
+nav ul li{
+	list-style: none;
+	display:inline;
+	padding:10px 15px;
+	margin:0px 2px;
+	background-color: #DBE3E3;
+	text-align:center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration:none;
+	color:#1E5ABA;
+}
+
+
+h1 {
+	font-size:3em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+}
+
+p{
+	padding:5px 10px;
+}
+
+section.page{
+	padding:  5px;
+	background-color:#DBE3E3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: -10px;
+	position:relative;
+	overflow:hidden;
+}
+
+section.jpage{
+	margin-top:0px;
+	background-color:#DBE3E3;
+	padding:5px;
+}
+
+section.page > h1{
+	padding: 15px 15px 5px 15px;
+	font-size: 2em;
+	border-bottom: thin dotted #1D9CEB;
+	width:600px;
+	color:#1E5ABA;
+}
+
+section.page p{
+	width:600px;
+	padding-left:15px;
+}
+
+footer{
+	color:white;
+	padding: 5px;
+}
+
+/*aside{
+	background-color:#1E5ABA;
+	width:220px;
+	position:absolute;
+	right:10px;
+	top:30px;
+}*/
+
+/*Rules of the Game*/
+
+section.rules{
+	width:600px;
+	padding-left:15px;
+}
+
+section.rules h2{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	color:#1E5ABA;
+}
+
+section.rules ol{
+	padding-left:20px;
+}
+
+section.rules li{
+	list-style-type:circle;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/*Aside CSS*/
+
+form.login, ul.profile, section.featured, section.rankspecial{
+	position:absolute;
+	right:10px;
+	top:30px;
+	background-color:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:220px;
+	color:white;
+}
+
+/*Login Form CSS*/
+form.login li{
+	padding-bottom:5px;
+	position:relative;
+	color:white;
+}
+
+form.login a{
+	color:white;
+	text-decoration:underline;
+}
+
+.boxtitle{
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+form.newaccount input{
+	margin:5px 0px 10px 0px;
+}
+
+/*Leaderboard Table*/
+table#leaderboard th{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+table#leaderboard td{
+	padding:5px 30px 5px 10px;
+}
+
+/*Leaderboard Page CSS*/
+
+section.rank-all
+{
+	padding:10px;
+	width:575px;
+	position:relative;
+}
+
+section.rank-all h1
+{
+	font-size:1.2em;
+	font-family: 'Cabin', arial, serif;
+}
+
+section.rank-all ol li{
+	padding-top:5px;
+	
+}
+
+section.rank-all ul > li + li{
+	position:absolute;
+	top:10px;
+	left:80px;
+}
+
+section.rank-all ul > li + li + li{
+	position:absolute;
+	top:10px;
+	left:240px;
+}
+
+/*section.rankspecial{
+	width:220px;
+	position:absolute;
+	right:10px;
+	top:20px;
+	background:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:white;
+}*/
+
+section.rankspecial h1{
+	font-size:1.75em;
+	color:white;
+}
+
+section.rankspecial h1 a{
+	color:white;
+}
+
+#accordion h1{
+	font-size:1.2em;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+#accordion h1 a{
+	
+}
+
+#accordion ol{
+	padding-left:20px;
+}
+
+#accordion li{
+	list-style-type:decimal;
+	padding-bottom:5px;
+}
+
+/*Restaurants Page*/
+section.restaurants{
+	width:600px;
+	margin-left:20px;
+}
+
+section.featured ul{
+	padding-top:10px;
+}
+
+section.featured h1{
+	font-size:1.75em;
+	color:white;	
+}
+
+section.featured img{
+	width:200px;
+}
+/*Bingo Card*/
+
+section.bingocard{
+	margin:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:595px;
+	background-color: #222222;
+	overflow:auto;
+}
+
+ul.bingocard{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #222222;
+}
+
+
+.abc li{
+	background-color:white;
+	text-align:center;
+	margin:8px;
+	float:left;
+	width:30px;
+	padding:10px;
+	font-size: 160%;
+	font-weight:bold;
+	line-height:1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 1px 1px 2px #999;
+	list-style:none;
+	color:#ED871B;
+	-webkit-box-shadow: 1px 2px 2px white;
+}
+
+.abc li.completed{
+	background-color: #1E5ABA;
+}
+
+.abc li.completed a, a:active{
+	color: white;
+}
+.abc li a, a:active {
+	color:#ED871B;
+}
+
+/*User Profile*/
+
+ul.profile{
+	position:absolute;
+	right:10px;
+	top:10px;
+	background-color:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:220px;
+}
+
+
+ul.profile li{
+	padding-bottom:5px;
+	position:relative;
+	color:white;
+}
+
+ul.personal{
+	border-bottom: thin dotted white;
+}
+
+li.personal{
+	font-size: small;
+	padding-left: 5px;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+ul.rank{
+	margin-top: 25px;
+	font-size: small;
+	background-color: rgba(255, 255, 255, 0.25);
+	padding:5px 5px 0px 5px;
+}
+
+ul.rank li.subheading{
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+img.profile{
+	float: right;
+	border: thin solid white;
+	width: 85px;
+}
+
+/*Visit Page*/
+img.restaurant{
+	float: right;
+	border: thin solid white;
+	width: 85px;
+}
+/*Visit Information Form*/
+
+/*form#visit > fieldset > label {
+}*/
+
+form#visit fieldset {
+	margin: 10px 0px;
+}
+
+.ui-datepicker{
+    z-index: 9000;
+}
+
+.ui-datepicker-calendar{
+	font-size: small;
+	width: 200px;
+}
+.ui-datepicker-calendar  > tr{
+	border-bottom: thin solid;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev {
+	font-size: small;
+	color:white;
+}
+
+.ui-datepicker-next{
+	float: right;
+}
+
+.ui-datepicker-title{
+	color: white;
+	font-weight:bold;
+	padding-top: 5px;
+}
+
+/*Visit Form Overlay*/
+
+.ui-widget-header{
+	padding: 10px;
+	background:#ED871B;
+}
+
+.ui-widget-content{
+	background:white;
+	padding:10px;
+}
+
+.ui-icon ui-icon-closethick{
+    padding:18px;
+}
+
+.ui-dialog-title{
+	color:white;
+	font-weight:bold;
+}
+
+.ui-dialog-titlebar{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ui-dialog-titlebar-close{
+	float:right;
+}
+
+/*Special Leaderboard CSS*/
+h1.ui-state-active{
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+.ui-accordion-content{
+	background-color: rgba(255, 255, 255, 0.25);
+	padding-bottom:0px;
+}
+
+
+/*From Scaffold CSS*/
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
