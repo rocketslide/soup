@@ -1,4 +1,6 @@
 class RestaurantsController < ApplicationController
+  skip_before_filter :authorize, :only => [:create, :update, :destroy]
+  
   # GET /restaurants
   # GET /restaurants.xml
   def index
@@ -63,6 +65,7 @@ class RestaurantsController < ApplicationController
 
   # PUT /restaurants/1
   # PUT /restaurants/1.xml
+  
   def update
     @restaurant = Restaurant.find(params[:id])
 

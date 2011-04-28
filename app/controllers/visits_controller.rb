@@ -1,4 +1,6 @@
 class VisitsController < ApplicationController
+  skip_before_filter :authorize, :only => [:create, :update, :destroy]
+  
   # GET /visits
   # GET /visits.xml
   def index
