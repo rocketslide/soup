@@ -118,16 +118,19 @@ User.create(:email => 'dabunny1@hotmail.com',
   :firstname => 'Bugs',
   :lastname => 'Bunny',
   :username => 'dabunny1',
-  :hash_password => '123')
+  :hash_password => '123',
+  :salt => '203333500.653238054564258')
 # . . .
 User.create(:email => 'mjackson@hotmail.com',
   :firstname => 'Michael',
   :lastname => 'Jackson',
   :username => 'thriller88',
-  :hash_password => '123')
+  :hash_password => '123',
+  :salt => '203333500.653238054564258')
 # . . .
 User.create(:email => 'topgun55@hotmail.com',
   :firstname => 'Tom',
   :lastname => 'Cruise',
   :username => 'iamtomcruise',
-  :hash_password => '123')
+  :hash_password => '123',
+  :salt => '203333500.653238054564258')

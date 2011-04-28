@@ -15,7 +15,7 @@ end
 
   def destroy
     session[:user_id] = nil
-    redirect_to index_url, :notice => "Logged out"
+    redirect_to bowl_url, :notice => "Logged out"
   end
 
 end
