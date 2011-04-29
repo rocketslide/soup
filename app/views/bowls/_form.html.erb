@@ -1,0 +1,17 @@
+<%= form_for(@bowl) do |f| %>
+  <% if @bowl.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bowl.errors.count, "error") %> prohibited this bowl from being saved:</h2>
+
+      <ul>
+      <% @bowl.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

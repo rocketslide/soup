@@ -1,0 +1,21 @@
+<h1>Listing bowls</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bowls.each do |bowl| %>
+  <tr>
+    <td><%= link_to 'Show', bowl %></td>
+    <td><%= link_to 'Edit', edit_bowl_path(bowl) %></td>
+    <td><%= link_to 'Destroy', bowl, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bowl', new_bowl_path %>

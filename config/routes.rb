@@ -1,4 +1,6 @@
 Soupbowl::Application.routes.draw do
+  resources :bowls
+
   get 'bowl' => "bowl#index"
 
   controller :sessions do
