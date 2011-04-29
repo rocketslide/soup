@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Soupbowl</title>
+  <title>Alphabet Soup: A Game for Foodies</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
@@ -13,8 +13,30 @@
     <%= button_to 'Logout', logout_path, :method => :delete	%>
     <% end %>
   </div>
+  
+  <header>
+    	
+        <img id="logo" src="../../../public/images/bingo_logo_small.png" />
+	
+	<h1>Restaurant Bingo</h1>
+	<h2>Fun for Foodies</h2>
 
+  <nav>
+	<ul>
+		<li<?php if ($thisPage=="Home") 
+                echo " id=\"currentpage\""; ?>><a href="index.php">Home</a></li>
+		<li<?php if ($thisPage=="Leaderboard") 
+                echo " id=\"currentpage\""; ?>><a href="leaderboard.php">Leaderboard</a></li>
+		<li<?php if ($thisPage=="Restaurants") 
+                echo " id=\"currentpage\""; ?>><a href="restaurants.php">Restaurants</a></li>
+	</ul>
+  </nav>
+    
+  </header>
+
+<section class="page">
 <%= yield %>
+</section>
 
 </body>
 </html>
