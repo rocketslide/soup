@@ -160,6 +160,29 @@ form.login, ul.profile, section.featured, section.rankspecial{
 	color:white;
 }
 
+aside{
+	position:absolute;
+	right:10px;
+	top:30px;
+	background-color:#1E5ABA;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:220px;
+	color:white;	
+}
+
+aside.new{
+	position:absolute;
+	right:10px;
+	top:60px;
+}
+
+aside a{
+	color:white;
+	
+}
+
 /*Login Form CSS*/
 form.login li{
 	padding-bottom:5px;
