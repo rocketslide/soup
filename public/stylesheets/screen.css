@@ -2,13 +2,13 @@
 /*Page CSS*/
 
 html{
-	background: #191919;
+	background-image:url(../images/tactile_noise.gif);
 }
 
 body{
 	width:900px;
 	margin: 0 auto;
-	background-image:url(../images/tactile_noise.gif);
+	
 	font-family:sans-serif;
 }
 
@@ -103,7 +103,7 @@ section.page p{
 }
 
 footer{
-	color:white;
+	
 	padding: 5px;
 }
 
