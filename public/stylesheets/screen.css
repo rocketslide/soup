@@ -2,6 +2,7 @@
 /*Page CSS*/
 
 html{
+
 	background-image:url(../images/tactile_noise.gif);
 }
 
@@ -114,6 +115,9 @@ footer{
 	right:10px;
 	top:30px;
 }*/
+
+/* Login page*/
+div .loginfield {padding: 5px; margin: 5px;}
 
 /*Rules of the Game*/
 

@@ -7,12 +7,12 @@
   <%= form_tag do %>
   <fieldset>
     <legend>Please Log In</legend>
-    <div>
+    <div class="loginfield">
       <label for="name">Name:</label>
       <%= text_field_tag :username, params[:username] %>
     </div>
   
-    <div>
+    <div class="loginfield">
       <label for="password">Password:</label>
       <%= password_field_tag :password, params[:password] %>
     </div>

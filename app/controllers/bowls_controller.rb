@@ -1,4 +1,5 @@
 class BowlsController < ApplicationController
+  skip_before_filter :authorize, :only => [:create, :update, :destroy]
   # GET /bowls
   # GET /bowls.xml
   def index
