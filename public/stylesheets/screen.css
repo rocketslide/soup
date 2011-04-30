@@ -115,6 +115,9 @@ footer{
 	top:30px;
 }*/
 
+/* Login page*/
+div .loginfield {padding: 5px; margin: 5px;}
+
 /*Rules of the Game*/
 
 section.rules{

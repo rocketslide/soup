@@ -17,7 +17,7 @@ class RestaurantsController < ApplicationController
   def show
     @restaurant = Restaurant.find(params[:id])
     @visits = Visit.find_all_by_restaurant_id(@restaurant.id)
-    @users = User.find_username_by_id(@visits.user_id)
+   # @users = User.find_username_by_id(@visits.user_id)
     
     
     respond_to do |format|

@@ -1,7 +1,7 @@
 Soupbowl::Application.routes.draw do
   resources :bowls
 
-  get 'bowl' => "bowl#index"
+  get 'bowls' => "bowls#index"
 
   controller :sessions do
     get 'login' => :new
