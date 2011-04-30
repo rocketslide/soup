@@ -9,6 +9,9 @@ html{
 body{
 	width:900px;
 	margin: 0 auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	
 	font-family:sans-serif;
 }

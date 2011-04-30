@@ -8,26 +8,26 @@
 </head>
 <body>
   
-  <div id="logout">
-    <% if session[:user_id] %>
-    <%= button_to 'Logout', logout_path, :method => :delete	%>
-    <% end %>
-  </div>
   
   <header>
     	
         <img id="logo" src=".../public/images/bingo_logo_small.png" />
 	
-	<h1>Restaurant Bingo</h1>
-	<h2>Fun for Foodies</h2>
+	<h1>Alphabet Soup</h1>
+	<h2>Fun for Foodies!</h2>
 
   <nav>
 	<ul>
 		<li><%= link_to 'Your Soup Bowl', bowls_path%></li>
-		<li<?php if ($thisPage=="Leaderboard") 
-                echo " id=\"currentpage\""; ?>><a href="leaderboard.php">Leaderboard</a></li>
+		<!--<li><?php if ($thisPage=="Leaderboard") 
+                echo " id=\"currentpage\""; ?>><a href="leaderboard.php">Leaderboard</a></li>-->
 		<li><%= link_to 'Restaurants', restaurants_path %></li>
 	</ul>
+		<% if session[:user_id] %>
+		<%= button_to 'Logout', logout_path, :method => :delete	%>
+		<% end %>
+	
+	
   </nav>
     
   </header>
