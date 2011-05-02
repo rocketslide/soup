@@ -1,5 +1,5 @@
 class RestaurantsController < ApplicationController
-  skip_before_filter :authorize, :only => [:create, :update, :destroy]
+  skip_before_filter :authorize, :only => [:index, :show]
   
   # GET /restaurants
   # GET /restaurants.xml
