@@ -76,6 +76,10 @@ p{
 	padding:5px 10px;
 }
 
+p.closed{
+	color:red;
+}
+
 section.page{
 	padding:  5px;
 	background-color:#DBE3E3;

@@ -10,10 +10,10 @@
   <%= @restaurant.location %>
 </p>
 
-<p>
-  <b>Open:</b>
-  <%= @restaurant.open %>
+<p id="closed">
+  <% @restaurant.open %>
 </p>
+
 <p>Visits:
 <% @visits.each do |visit|%>
 <%= visit.date %>
