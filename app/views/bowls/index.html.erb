@@ -9,6 +9,7 @@
 
 <% @bowls.each do |bowl| %>
   <tr>
+    <td><%= bowl.title %></td>
     <td><%= link_to 'Show', bowl %></td>
     <td><%= link_to 'Edit', edit_bowl_path(bowl) %></td>
     <td><%= link_to 'Destroy', bowl, :confirm => 'Are you sure?', :method => :delete %></td>
