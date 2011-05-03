@@ -62,7 +62,7 @@ nav ul li{
 
 a {
 	text-decoration:none;
-	color:#1E5ABA;
+	
 }
 
 
@@ -74,6 +74,10 @@ h1 {
 
 p{
 	padding:5px 10px;
+}
+
+p.closed{
+	color:red;
 }
 
 section.page{
@@ -175,7 +179,11 @@ aside{
 
 aside a{
 	color:white;
-	
+}
+
+aside p{
+	text-indent:0px;
+	width:200px;
 }
 
 /*Login Form CSS*/
