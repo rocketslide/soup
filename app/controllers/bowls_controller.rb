@@ -1,5 +1,5 @@
 class BowlsController < ApplicationController
-  skip_before_filter :authorize, :only => [:create, :update, :destroy]
+  skip_before_filter :authorize, :only => [:show, :index, :create, :new]
   # GET /bowls
   # GET /bowls.xml
   def index
@@ -15,6 +15,7 @@ class BowlsController < ApplicationController
   # GET /bowls/1.xml
   def show
     @bowl = Bowl.find(params[:id])
+    @visits = Visit.find_all_by_user_id(@bowl.user_id)
 
     respond_to do |format|
       format.html # show.html.erb

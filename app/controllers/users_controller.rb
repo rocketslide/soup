@@ -50,8 +50,8 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to(@user, :notice => "User #{@user.username} was successfully created.") }
-        format.xml  { render :xml => @user, :status => :created, :location => @user }
+        format.html { redirect_to new_bowl_path(:user_id => @user, :notice => "User #{@user.username} was successfully created.") }
+        format.xml  { render :xml => @user, :status => :created, :location => @user, :action => create_bowl, :user_id => @user }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }

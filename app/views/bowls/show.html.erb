@@ -4,5 +4,12 @@
   <a href="../visits/new.html">Add a visit</a>
 </p>
 
+<p>Visits:
+<% @visits.each do |visit|%>
+<%= visit.restaurant_id %><br />
+<%= visit.date %>
+<% end %>
+</p>
+
 <%= link_to 'Edit', edit_bowl_path(@bowl) %> |
 <%= link_to 'Back', bowls_path %>
